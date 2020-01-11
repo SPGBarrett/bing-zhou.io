@@ -3,8 +3,8 @@ var indexVue = new Vue({
     data: function () {
         return {
             selectedMenu: { //Set selected menu
-                index: 'active',
-                about: 'not-active',
+                index: 'not-active',
+                about: 'active',
                 service: 'not-active',
                 portfolio: 'not-active',
                 photography: 'not-active',
